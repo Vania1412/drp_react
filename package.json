@@ -1,8 +1,8 @@
 {
-  "name": "goal-saving",
+  "name": "goalsaving",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://vania1412.github.io/goal-saving",
+  "homepage": "https://vania1412.github.io/goalsaving",
   "dependencies": {
     "@firebase/firestore": "^4.6.3",
     "@testing-library/jest-dom": "^5.17.0",
