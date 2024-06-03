@@ -6,11 +6,11 @@ import AchievedGoalsPage from './pages/AchievedGoalsPage.js';
 
 function App() {
   return (
-    <Router basename={window.location.pathname || ''}>
+    <Router> 
       <Routes>
-        <Route exact path="/" element={<HomePage />} />
-        <Route exact path="/details-goal" element={<DetailsGoalPage />} />
-        <Route exact path="/achieved" element={<AchievedGoalsPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/details-goal" element={<DetailsGoalPage />} />
+        <Route path="/achieved" element={<AchievedGoalsPage />} />
       </Routes>
     </Router>
   );

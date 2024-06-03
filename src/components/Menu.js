@@ -26,7 +26,7 @@ const Menu = () => {
           <button className="menuItem" onClick={() => navigateTo('/')}>
             Home
           </button>
-          <button className="menuItem" onClick={() => navigateTo('achieved')}>
+          <button className="menuItem" onClick={() => navigateTo('/achieved')}>
             Achieved Goals
           </button>
         </div>
