@@ -6,7 +6,7 @@ import AchievedGoalsPage from './pages/AchievedGoalsPage.js';
 
 function App() {
   return (
-    <Router>
+    <Router basename={window.location.pathname || ''}>
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/details-goal" element={<DetailsGoalPage />} />
