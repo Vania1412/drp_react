@@ -1,4 +1,4 @@
-name: CI/CD for Web Page
+name: CI/CD for Web Page 
 
 on:
   push:
