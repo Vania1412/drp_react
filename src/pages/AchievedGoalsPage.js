@@ -29,7 +29,7 @@ const AchievedGoalsPage = () => {
   }, []);
 
   const handleShare = async (itemId, text, originalText) => {
-    if (text != undefined && text !== originalText) {
+    if (text !== undefined && text !== originalText) {
       try {
         // Query the user collection to find the document with the username "Wendy237"
         const userQuery = query(collection(firestore, "users"), where("Username", "==", "Wendy237"));

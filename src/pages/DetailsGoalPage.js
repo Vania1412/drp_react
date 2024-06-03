@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import profilePic from '../assets/icon.png';
 
 function DetailsGoalPage() {
-  const { title, progress } = useParams();
+  const { title } = useParams();
 
   const containerStyle = {
     padding: '20px',

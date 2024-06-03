@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; 
 
 const Menu = () => {
   const [showMenu, setShowMenu] = useState(false);
-
-  const navigate = useNavigate(); 
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);

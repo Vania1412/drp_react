@@ -1,5 +1,4 @@
 // firebase.js
-import firebase from 'firebase/app';
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from "firebase/firestore";
 import 'firebase/firestore';
