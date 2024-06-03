@@ -2,7 +2,7 @@
   "name": "goal-saving",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vania1412.github.io/drp_react-gh-pages",
+  "homepage": "https://vania1412.github.io/goal_saving",
   "dependencies": {
     "@firebase/firestore": "^4.6.3",
     "@testing-library/jest-dom": "^5.17.0",
